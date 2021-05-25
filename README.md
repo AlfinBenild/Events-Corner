@@ -27,4 +27,4 @@ sqlparse==0.4.1
 This project can be run on the local server as deployment part is not finished.
 ## How to Run
 As we where not able to host the site, can be run in the 
-This site can be run using python manage.py runserver command while ithe directory with manage.py file.
+This site can be run using "python manage.py runserver" command while ithe directory with manage.py file.
