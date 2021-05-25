@@ -1,5 +1,5 @@
 ![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
-# Project Name
+# Events-Corner
 Our Project,Events Corner, is a web portal where the users can create and register for the events.The user has to login or register in the site inorder to get access to site settings. The site as of now have the functionality to create event, update event or delete event if created by the user , register for the event(can only register once for an event), profile where the registered events are visible,and a usre login logout and register system.  
 ## Team members
 1. Alfin Benild [https://github.com/AlfinBenild]
