@@ -14,17 +14,20 @@ The home page consits of mainly two options, create event or register for event.
 
 
 ## Libraries used
-dj-database-url==0.5.0
-Django==3.2.3
-django-crispy-forms==1.11.2
-django-heroku==0.3.1
-django-phonenumber-field==5.1.0
-phonenumbers==8.12.23
-Pillow==8.2.0
-python-decouple==3.4
-sqlparse==0.4.1
+asgiref==3.3.4  
+dj-database-url==0.5.0  
+Django==3.2.3  
+django-crispy-forms==1.11.2  
+django-heroku==0.3.1  
+django-phonenumber-field==5.1.0  
+gunicorn==20.1.0  
+phonenumbers==8.12.23  
+Pillow==8.2.0  
+psycopg2==2.8.6  
+pytz==2021.1  
+sqlparse==0.4.1  
+whitenoise==5.2.0  
 ## How to configure
-This project can be run on the local server as deployment part is not finished.
+This site can be found at https://events-corner.herokuapp.com/
 ## How to Run
-As we where not able to host the site, can be run in the 
 This site can be run using "python manage.py runserver" command while ithe directory with manage.py file.
