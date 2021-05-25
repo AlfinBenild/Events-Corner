@@ -1,0 +1,29 @@
+{% extends 'home/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<center>
+    <div class="card mb-3 profile-div content-section" style="max-width: 800px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class = "rounded-circle account-img" src="{{ user.profile.image.url }}" alt="user.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">{{ user.username }}</h2>
+              <p class="card-text">{{ user.email }}</p>
+              {% if registered_events %}
+              <h5 class = "profile-head">Events Registered</h5>
+              {% for item in registered_events %}
+              <div class = "class1">
+              <ul>
+                <li>{{ item.event.title }}</li>
+              </ul>
+             </div>
+              {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+</center>
+{% endblock %}

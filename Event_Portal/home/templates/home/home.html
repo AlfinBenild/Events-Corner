@@ -1,0 +1,12 @@
+{% extends 'home/base.html' %}
+{% block content %}
+<div class = 'home-text position-absolute top-50 start-50 translate-middle'>
+    <p class = "display-6 text">
+        Welcome Aboard ! How may I help you ?
+    </p>
+    <div class = "button-main">
+        <button type = "button" class = "btn btn-danger btn1 btn-lg rounded-pill" ><a href = "{% url 'event-create' %}" class = "create-button">Create An Event</a></button>
+        <button type = "button" class = "btn btn-danger btn2 btn-lg rounded-pill"><a href = "{% url 'register-join' %}" class = "create-button">Join An Event</a></button>
+    </div>
+</div>
+{% endblock %}

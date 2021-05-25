@@ -1,0 +1,23 @@
+{% extends 'home/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class = "register-content">
+    <div class = "content-section">
+        <form method = "POST">
+            {% csrf_token %}
+            <fieldset class = "form-group">
+                <center><legend class = "border-bottom mb-4 head-text">Join an Event</legend></center>
+                {{ form|crispy }}
+            </fieldset>
+            <div class = "form-group button-submit">
+                <center>
+                    <button class = "btn btn-danger" type = "submit">Join</button>
+                </center>
+                <div class = 'join-div'>
+                    <a class = 'join-info' href="{% url 'events' %}">For more details about the events, Click here!</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
