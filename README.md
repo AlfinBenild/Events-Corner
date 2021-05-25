@@ -30,4 +30,4 @@ whitenoise==5.2.0
 ## How to configure
 This site can be found at https://events-corner.herokuapp.com/
 ## How to Run
-This site can be run using "python manage.py runserver" command while ithe directory with manage.py file.
+This site can be run using "python manage.py runserver" command while in the directory with manage.py file.
