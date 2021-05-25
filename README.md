@@ -24,7 +24,6 @@ Pillow==8.2.0
 python-decouple==3.4
 sqlparse==0.4.1
 ## How to configure
-Instructions for setting up project
 This project can be run on the local server as deployment part is not finished.
 ## How to Run
 As we where not able to host the site, can be run in the 
